@@ -13,7 +13,7 @@ export const addTodo = mutation({
     handler: async (ctx, args) => {
         const todoId = await ctx.db.insert("todos", {
             text: args.text,
-            isComplete: false,
+            isCompleted: false,
         });
         return todoId;
     }
@@ -27,7 +27,7 @@ export const toggleTodo = mutation({
             throw new Error("Todo not found");
         }
         await ctx.db.patch(args.id, {
-            isComplete: !todo.isComplete,
+            isCompleted: !todo.isCompleted,
         });
     },
 });
