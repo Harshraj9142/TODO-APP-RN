@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# ✅ TODO-APP-RN
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern and lightweight **Todo Application** built using **Expo (React Native)** for the frontend and **Convex** as the backend for real-time data sync, persistence, and server-side logic. The project is structured with file-based routing, reusable components, and full TypeScript support for safety and scalability.
 
-## Get started
+---
 
-1. Install dependencies
+## 📸 Screenshots
+![Todos](assets/screenshots/todos.jpg)
+![Settings](assets/screenshots/settings.jpg)
 
-   ```bash
-   npm install
-   ```
+## 🌟 Features
 
-2. Start the app
+✅ Add new todos  
+✅ Toggle completion state  
+✅ Delete todos  
+✅ Real-time backend sync via Convex  
+✅ Type-safe queries and mutations  
+✅ Expo Router navigation  
+✅ Modular UI components  
+✅ Supports iOS, Android & Web  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🧰 Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### **Frontend**
+- Expo (React Native)
+- Expo Router
+- React Hooks
+- TypeScript
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### **Backend**
+- Convex Database + Functions
+- Strongly typed API client
+- Schema-based data modeling
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ✅ Requirements
 
+Make sure the following are installed:
+
+### Required
+- **Node.js 16+**
+- **npm or yarn**
+
+### Optional (recommended)
+#### ✅ Expo CLI
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install -g expo-cli
