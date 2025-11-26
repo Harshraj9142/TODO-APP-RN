@@ -5,8 +5,11 @@ A modern and lightweight **Todo Application** built using **Expo (React Native)*
 ---
 
 ## 📸 Screenshots
-![Todos](assets/screenshots/todos.jpg)
-![Settings](assets/screenshots/settings.jpg)
+<p align="center">
+  <img src="assets/screenshots/todos.jpg" width="45%" />
+  <img src="assets/screenshots/settings.jpg" width="45%" />
+</p>
+
 
 ## 🌟 Features
 
